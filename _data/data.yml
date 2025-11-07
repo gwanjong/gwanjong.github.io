@@ -4,23 +4,23 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Gwanjong Park
-  tagline: 
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: Computer System Researcher
+  avatar: pgj.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: jesj74@g.skku.edu
   phone:
-  timezone: South Korea/Suwon # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  timezone: #South Korea # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
   website: https://gwanjong.github.io/ # Include the full website URL, including "http://" or "https://".
   linkedin: gwanjongPark
-  xing: gwanjongPark
-  github: gwanjong
+  xing: #gwanjongPark
+  github: #gwanjong
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
@@ -35,55 +35,38 @@ sidebar:
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
 career-profile:
-  title: Career Profile
+  title: Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    I am Gwanjong Park, a Ph.D. student at SungKyunKwan University, advised by Professor Euiseong Seo.
+    My research interests span the design of computer systems, with a focus on machine learning systems,
+    compound AI systems, and sustainable AI systems. 
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Ph.D. in the Deptartment of Software.
+    university: SungKyunKwan University
+    time: 2024.02 -
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+  - degree: M.S. in the Deptartment of Software.
+    university: SungKyunKwan University
+    time: 2022.08 - 2024.02
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - degree: B.S. in the Deptartment of Software.
+    university: SungKyunKwan University
+    time: 2017.03 - 2022.08
+    details: |
+  
 publications:
   title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+  #intro: |
+  #  You can list your publications in this section. Lorem ipsum dolor sit
+  #  amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+  #  bibendum fringilla a eu lectus.
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    - title: "Carbon-Aware Continuous Learning for Sustainable Real-Time Machine Learning Analytics"
+        link: "#"
+        authors: <mark>Gwanjong Park</mark>, Osama Khan, Dongho Ha, Myeongjae Jeon, Euiseong Seo
+        conference: "The European Conference on Computer Systems (EuroSys 2026)"
     
 experiences:
   title: Experiences
