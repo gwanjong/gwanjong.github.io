@@ -84,24 +84,25 @@ projects:
       items:
         - text: "Ph.D. Fellowship from the National Research Foundation of Korea"
           time: "Sep 2024 – Aug 2026"
-          details: "<ins>50,000,000</ins> KRW, 박사과정생연구장려금지원사업 연구과제책임자"
-        - text: "Ph.D. Program Full Tuition Scholarship in SKKU"
+          details: "<ins>50,000,000</ins> KRW, 한국연구재단 박사과정생연구장려금지원사업 연구과제책임자"
+        - text: "Ph.D. Program Full Tuition Scholarship"
           time: "Mar 2024 – Feb 2026"
-          details: "<ins>30,843,000</ins> KRW"
-        - text: "M.S. Program Full Tuition Scholarship in SKKU"
+          details: "<ins>30,843,000</ins> KRW, SKKU"
+        - text: "M.S. Program Full Tuition Scholarship"
           time: "Aug 2022 – Feb 2024"
-          details: "<ins>22,624,000</ins> KRW"
-        - text: "B.S. Program Half Tuition Scholarship in SKKU"
+          details: "<ins>22,624,000</ins> KRW, SKKU"
+        - text: "B.S. Program Half Tuition Scholarship"
           time: "Mar 2017 – Aug 2022"
-          details: "<ins>12,535,000</ins> KRW"
+          details: "<ins>12,535,000</ins> KRW, SKKU"
 
     - title: "Awards"
       items:
         - text: "소프트웨어융합대학 일반대학원 소프트웨어학과 우수연구상"
           time: "Feb 2024"
           details: "SKKU"
-        - text: "Dean's List at the College of Software in SKKU"
+        - text: "Dean's List at the College of Software"
           time: "Spring 2017, Spring 2021, Fall 2021"
+          details: "SKKU"
 
     - title: "Patents"
       items:
