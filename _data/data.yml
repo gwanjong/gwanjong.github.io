@@ -108,7 +108,7 @@ projects:
       items:
         - text: "Inference Method Using a DNN Model in Energy Harvesting System"
           details: "U.S. Patent (Applied)" #18/544,678
-        - text: "Recalculation Method of Backpropagation in a Manner that Selects the Layers to Store the Output in Memory"
+        - text: "Recalculation Method of Backpropagation in a Manner that Select the Layers to Store the Output in Memory"
           details: "U.S. Patent (Applied)" #18/398,458
         - text: "학습 클러스터에서 자원 사용률을 극대화하기 위한 유휴 CPU 자원 기반 심층신경망 추론 방법"
           details: "PCT (Applied)" #, KR2024/021059
