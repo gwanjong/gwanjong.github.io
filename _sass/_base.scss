@@ -221,9 +221,9 @@ p {
 
   .project-title {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     color: darken($theme-color, 15%);
   }
   .projects-section {
@@ -251,8 +251,12 @@ p {
   }
   .publication-authors {
     font-style: italic;
-    color: $text-grey;
+    color: #000000;
     margin-bottom: 1px;
+  }
+  .publication-authors mark {
+    background: #d8f7ff; 
+    color: #000000;   
   }
   .publications-section {
     .intro {
