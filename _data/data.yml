@@ -54,36 +54,33 @@ education:
   - degree: Ph.D. in the Deptartment of Software.
     university: SungKyunKwan University
     time: 2024.02 -
-    details: |
+    details: ""      
   - degree: M.S. in the Deptartment of Software.
     university: SungKyunKwan University
     time: 2022.08 - 2024.02
-    details: |
+    details: ""
   - degree: B.S. in the Deptartment of Software.
     university: SungKyunKwan University
     time: 2017.03 - 2022.08
-    details: |
+    details: ""
+
   
 publications:
   title: Publications
-  #intro: |
-  #  You can list your publications in this section. Lorem ipsum dolor sit
-  #  amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-  #  bibendum fringilla a eu lectus.
   papers:
     - title: "Carbon-Aware Continuous Learning for Sustainable Real-Time Machine Learning Analytics"
-        link: "#"
-        authors: <b>Gwanjong Park</b>, Osama Khan, Dongho Ha, Myeongjae Jeon, Euiseong Seo
-        conference: "The European Conference on Computer Systems (EuroSys 2026)"
+      link: "#"
+      authors: "<b>Gwanjong Park</b>, Osama Khan, Dongho Ha, Myeongjae Jeon, Euiseong Seo"
+      conference: "The European Conference on Computer Systems (EuroSys 2026)"
     - title: "Cloud Reamer: Enabling Inference Services in Training Clusters"
-        link: "https://ieeexplore.ieee.org/abstract/document/10786549"
-        authors: Osama Khan, <b>Gwanjong Park</b>, Junyeol Yu, and Euiseong Seo
-        conference: "The International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS 2024)"
+      link: "https://ieeexplore.ieee.org/abstract/document/10786549"
+      authors: "Osama Khan, <b>Gwanjong Park</b>, Junyeol Yu, and Euiseong Seo"
+      conference: "The International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS 2024)"
     - title: "DaCapo: An On-Device Learning Scheme for Memory-Constrained Embedded Systems"
-        link: "https://dl.acm.org/doi/full/10.1145/3609121"
-        authors: Osama Khan, <b>Gwanjong Park</b>, and Euiseong Seo
-        conference: "The International Conference on Embedded Software (EMSOFT 2023)"
+      link: "https://dl.acm.org/doi/full/10.1145/3609121"
+      authors: "Osama Khan, <b>Gwanjong Park</b>, and Euiseong Seo"
+      conference: "The International Conference on Embedded Software (EMSOFT 2023)"
     - title: "Energy-Harvesting-Aware Adaptive Inference of Deep Neural Networks in Embedded Systems"
-        link: "https://ieeexplore.ieee.org/abstract/document/10244276"
-        authors: <b>Gwanjong Park</b>, Osama Khan, and Euiseong Seo
-        conference: "The International Symposium on Low Power Electronics and Design (ISLPED 2023)"
+      link: "https://ieeexplore.ieee.org/abstract/document/10244276"
+      authors: "<b>Gwanjong Park</b>, Osama Khan, and Euiseong Seo"
+      conference: "The International Symposium on Low Power Electronics and Design (ISLPED 2023)"
