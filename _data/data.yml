@@ -76,32 +76,50 @@ publications:
       link: "https://ieeexplore.ieee.org/abstract/document/10244276"
       authors: "<mark><b>Gwanjong Park</b></mark>, Osama Khan, and Euiseong Seo"
       conference: "The International Symposium on Low Power Electronics and Design (ISLPED 2023)"
-
+      
 projects:
   title: "Remarks"
   assignments:
     - title: "Fundings"
-      taglines:
-        - "한국연구재단 이공분야 학술연구지원사업 (박사과정생연구장려금지원사업) 연구책임자. Sep 2024 - Aug 2026. <ins>50,000,000</ins> KRW"
-        - "Ph.D. Program Full Tuition Scholarship in SKKU. Mar 2024 - Feb 2026. <ins>30,843,000</ins> KRW"
-        - "M.S. Program Full Tuition Scholarship in SKKU. Aug 2022 - Feb 2024. <ins>22,624,000</ins> KRW"
-        - "B.S. Program Half Tuition Scholarship in SKKU. Mar 2017 - Aug 2022. <ins>12,535,000</ins> KRW"
+      items:
+        - text: "한국연구재단 이공분야 학술연구지원사업 연구책임자 (박사과정생연구장려금지원사업)"
+          time: "Sep 2024 – Aug 2026"
+          details: "<ins>50,000,000</ins> KRW"
+        - text: "Ph.D. Program Full Tuition Scholarship in SKKU"
+          time: "Mar 2024 – Feb 2026"
+          details: "<ins>30,843,000</ins> KRW"
+        - text: "M.S. Program Full Tuition Scholarship in SKKU"
+          time: "Aug 2022 – Feb 2024"
+          details: "<ins>22,624,000</ins> KRW"
+        - text: "B.S. Program Half Tuition Scholarship in SKKU"
+          time: "Mar 2017 – Aug 2022"
+          details: "<ins>12,535,000</ins> KRW"
 
     - title: "Awards"
-      taglines:
-        - "소프트웨어융합대학 일반대학원 소프트웨어학과 우수연구상 in SKKU. Feb 2024"
-        - "Dean's List at the College of Software in SKKU. Spring 2017, Spring 2021, Fall 2021"
+      items:
+        - text: "소프트웨어융합대학 일반대학원 소프트웨어학과 우수연구상 in SKKU"
+          time: "Feb 2024"
+        - text: "Dean's List at the College of Software in SKKU"
+          time: "Spring 2017, Spring 2021, Fall 2021"
 
     - title: "Patents"
-      taglines:
-        - "INFERENCE METHOD USING A DNN MODEL IN ENERGY HARVESTING SYSTEM, U.S. Patent (Applied), 18/544,678"
-        - "RECALCULATION METHOD OF BACKPROPAGATION IN A MANNER THAT SELECT THE LAYERS TO STORE THE OUTPUT IN MEMORY, U.S. Patent (Applied), 18/398,458"
-        - "학습 클러스터에서 자원 사용률을 극대화하기 위한 유휴 CPU 자원 기반 심층신경망 추론 방법, PCT (Applied), PCT/KR2024/021059"
-        - "R-2025-0933-KR-1 (In Progress)"
-        - "R-2025-0671-KR-1 (In Progress)"
+      items:
+        - text: "INFERENCE METHOD USING A DNN MODEL IN ENERGY HARVESTING SYSTEM"
+          details: "U.S. Patent (Applied), 18/544,678"
+        - text: "RECALCULATION METHOD OF BACKPROPAGATION IN A MANNER THAT SELECT THE LAYERS TO STORE THE OUTPUT IN MEMORY"
+          details: "U.S. Patent (Applied), 18/398,458"
+        - text: "학습 클러스터에서 자원 사용률을 극대화하기 위한 유휴 CPU 자원 기반 심층신경망 추론 방법"
+          details: "PCT (Applied), KR2024/021059"
+        - text: "R-2025-0933-KR-1"
+          details: "In Progress"
+        - text: "R-2025-0671-KR-1"
+          details: "In Progress"
 
     - title: "Teaching Assistant"
-      taglines:
-        - "Operating Systems (SWE3004, Fall 2022 - Fall 2025)"
-        - "System Program (SWE2001, Fall 2025)"
-        - "Basis and Practice in Programming (GEDT019, Fall 2022)"
+      items:
+        - text: "SWE3004: Operating Systems"
+          time: "Fall 2022 – Fall 2025"
+        - text: "SWE2001: System Program"
+          time: "Fall 2025"
+        - text: "GEDT019: Basis and Practice in Programming"
+          time: "Fall 2022"
