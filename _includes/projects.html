@@ -32,7 +32,7 @@
         </div>
 
         {% if it.details %}
-          <div class="university" style="margin-bottom: 0px;">
+          <div class="university" style="margin-bottom: 10px;">
             {{ it.details | markdownify | replace: '<p>','' | replace: '</p>','' }}
           </div>
         {% endif %}
