@@ -32,16 +32,9 @@
     {% endif %}
 
     {% if sidebar.website %}
-    <li class="website"><i class="fas fa-graduation-cap"></i>
+    <li class="website"><i class="fas fa-book"></i>
       <!-- <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a> -->
       <a href="http://{{ sidebar.website }}" target="_blank">Google Scholar</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.website2 %}
-    <li class="website2"><i class="fas fa-server"></i>
-      <!-- <a href="http://{{ sidebar.website2 }}" target="_blank">{{ sidebar.website }}</a> -->
-      <a href="{{ sidebar.website2 }}" target="_blank">Research Group</a>
     </li>
     {% endif %}
     
@@ -133,5 +126,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.website2 %}
+    <li class="website2"><i class="fas fa-users"></i>
+      <!-- <a href="http://{{ sidebar.website2 }}" target="_blank">{{ sidebar.website }}</a> -->
+      <a href="{{ sidebar.website2 }}" target="_blank">Research Group</a>
+    </li>
+    {% endif %}
+    
   </ul>
 </div><!--//contact-container-->
