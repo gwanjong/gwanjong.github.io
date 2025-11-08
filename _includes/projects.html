@@ -1,6 +1,7 @@
-{% assign remarks = site.data.data.projects %}
+{% assign projects = site.data.data.projects %}
 {% if projects %}
 <section class="section projects-section">
+
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -10,31 +11,35 @@
   </h2>
 
   {% for group in projects.assignments %}
-    <div class="item">
-      <div class="meta">
-        <div class="upper-row">
-          <h3 class="degree">{{ group.title }}</h3>
-          {# 섹션 자체 기간이 필요하면 group.time 추가해서 표시 가능 #}
-          {% if group.time %}<div class="time">{{ group.time }}</div>{% endif %}
-        </div>
+  <div class="item">
+
+    <div class="meta">
+
+      <!-- 섹션 제목 (Fundings / Awards / …) -->
+      <div class="upper-row">
+        <h3 class="degree">{{ group.title }}</h3>
       </div>
 
       {% if group.items %}
-      <div class="details">
         {% for it in group.items %}
-          <div class="remark-row">
-            <div class="remark-left">
-              <span class="project-title">{{ it.text }}</span>
-              {% if it.details %}
-                <div class="university" style="margin-top:2px">{{ it.details | markdownify | replace: '<p>','' | replace: '</p>','' }}</div>
-              {% endif %}
-            </div>
-            {% if it.time %}<div class="time">{{ it.time }}</div>{% endif %}
+        <!-- Education과 동일한 upper-row 구조: 좌 텍스트 / 우 기간 -->
+        <div class="upper-row">
+          <h4 class="degree" style="font-weight:500">{{ it.text }}</h4>
+          {% if it.time %}<div class="time">{{ it.time }}</div>{% endif %}
+        </div>
+
+        {% if it.details %}
+          <div class="university" style="margin-bottom: 0px;">
+            {{ it.details | markdownify | replace: '<p>','' | replace: '</p>','' }}
           </div>
+        {% endif %}
         {% endfor %}
-      </div>
       {% endif %}
-    </div>
+
+    </div><!--//meta-->
+
+  </div><!--//item-->
   {% endfor %}
-</section>
+
+</section><!--//section-->
 {% endif %}
