@@ -1,40 +1,40 @@
-{% assign projects = site.data.data.projects %}
+{% assign remarks = site.data.data.projects %}
 {% if projects %}
 <section class="section projects-section">
-
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-clipboard-list fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
   </h2>
 
-  {% if projects.intro %}
-  <div class="intro">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
-
-  {% for project in projects.assignments %}
+  {% for group in projects.assignments %}
     <div class="item">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="degree">{{ group.title }}</h3>
+          {# 섹션 자체 기간이 필요하면 group.time 추가해서 표시 가능 #}
+          {% if group.time %}<div class="time">{{ group.time }}</div>{% endif %}
+        </div>
+      </div>
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
-      <br>
-      {% if project.taglines %}
-        {% for tagline in project.taglines %}
-          - <span class="project-tagline">{{ tagline }}</span><br>
+      {% if group.items %}
+      <div class="details">
+        {% for it in group.items %}
+          <div class="remark-row">
+            <div class="remark-left">
+              <span class="project-title">{{ it.text }}</span>
+              {% if it.details %}
+                <div class="university" style="margin-top:2px">{{ it.details | markdownify | replace: '<p>','' | replace: '</p>','' }}</div>
+              {% endif %}
+            </div>
+            {% if it.time %}<div class="time">{{ it.time }}</div>{% endif %}
+          </div>
         {% endfor %}
+      </div>
       {% endif %}
-
-    </div><!--//item-->
+    </div>
   {% endfor %}
-
-</section><!--//section-->
+</section>
 {% endif %}
