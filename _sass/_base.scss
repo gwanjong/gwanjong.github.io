@@ -221,7 +221,7 @@ p {
 
   .project-title {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: bold;
     margin-top: 0;
     margin-bottom: 8px;
     color: darken($theme-color, 15%);
@@ -251,11 +251,11 @@ p {
   }
   .publication-authors {
     font-style: italic;
-    color: #000000;
+    color: #000000 !important;
     margin-bottom: 1px;
   }
   .publication-authors mark {
-    background: #d8f7ff; 
+    background: #d8f7ff !important; 
     color: #000000;   
   }
   .publications-section {
