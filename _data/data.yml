@@ -18,7 +18,6 @@ sidebar:
   timezone: #South Korea # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
   website: "scholar.google.com/citations?user=ndiHzu0AAAAJ&hl=ko" # Include the full website URL, including "http://" or "https://".
-  website2: "https:csl.skku.edu"
   linkedin: gwanjong-park-3a1107287
   xing: 
   github: gwanjong
@@ -34,6 +33,7 @@ sidebar:
   hackerrank: # Please provide your HackerRank username.
   leetcode: # Please provide your LeetCode username.
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  website2: "https:csl.skku.edu"
   
   languages:
             
