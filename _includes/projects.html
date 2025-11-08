@@ -17,14 +17,14 @@
 
       <!-- 섹션 제목 (Fundings / Awards / …) -->
       <div class="upper-row">
-        <h3 class="degree">{{ group.title }}</h3>
+        <div class="degree">{{ group.title }}</div>
       </div>
 
       {% if group.items %}
         {% for it in group.items %}
         <!-- Education과 동일한 upper-row 구조: 좌 텍스트 / 우 기간 -->
         <div class="upper-row">
-          <h4 class="degree" style="font-weight:500">{{ it.text }}</h4>
+          <div class="degree">{{ it.text }}</div>
           {% if it.time %}<div class="time">{{ it.time }}</div>{% endif %}
         </div>
 
