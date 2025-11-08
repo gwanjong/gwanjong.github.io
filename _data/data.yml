@@ -3,13 +3,13 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
+  position: left # position of the sidebar : left or right
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Gwanjong Park
-  tagline: Computer System Researcher
+  tagline: 
   avatar: pgj.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -17,10 +17,10 @@ sidebar:
   phone:
   timezone: #South Korea # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: https://scholar.google.com/citations?user=ndiHzu0AAAAJ&hl=ko&oi=ao # Include the full website URL, including "http://" or "https://".
+  website: "https://scholar.google.com/citations?user=ndiHzu0AAAAJ&hl=ko&oi=ao" # Include the full website URL, including "http://" or "https://".
   linkedin: gwanjongPark
   xing: #gwanjongPark
-  github: #gwanjong
+  github: gwanjong
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
@@ -47,21 +47,21 @@ career-profile:
   title: Profile
   summary: |
     I am Gwanjong Park, a Ph.D. student in the Computer Systems Laboratory (CSL) at SungKyunKwan University (SKKU), advised by Professor Euiseong Seo.
-    My research interests lie at the intersection of computer systems and AI, with a focus on machine learning systems, compound AI system pipelines, and sustainability-driven AI system infrastructures.
+    Currently, my research interests are centered on the intersection of computer systems and AI, with a focus on machine learning systems, compound AI system pipelines, and sustainability-driven AI system infrastructures.
 education:
   title: Education
   info:
-  - degree: Ph.D. in the Deptartment of Software.
-    university: SungKyunKwan University
-    time: 2024.02 -
+  - degree: Ph.D. in the Deptartment of Software
+    university: SungKyunKwan University, Suwon, Korea (Advisor: Euiseong Seo)
+    time: Feb 2024 -
     details: ""      
-  - degree: M.S. in the Deptartment of Software.
-    university: SungKyunKwan University
-    time: 2022.08 - 2024.02
+  - degree: M.S. in the Deptartment of Software
+    university: SungKyunKwan University, Suwon, Korea (Advisor: Euiseong Seo)
+    time: Sep 2022 - Feb 2024
     details: ""
-  - degree: B.S. in the Deptartment of Software.
+  - degree: B.S. in the Deptartment of Software
     university: SungKyunKwan University
-    time: 2017.03 - 2022.08
+    time: Mar 2017 - Aug 2022
     details: ""
 
   
@@ -70,17 +70,30 @@ publications:
   papers:
     - title: "Carbon-Aware Continuous Learning for Sustainable Real-Time Machine Learning Analytics"
       link: "#"
-      authors: "<b>Gwanjong Park</b>, Osama Khan, Dongho Ha, Myeongjae Jeon, Euiseong Seo"
+      authors: "<mark><b>Gwanjong Park</b></mark>, Osama Khan, Dongho Ha, Myeongjae Jeon, Euiseong Seo"
       conference: "The European Conference on Computer Systems (EuroSys 2026)"
     - title: "Cloud Reamer: Enabling Inference Services in Training Clusters"
       link: "https://ieeexplore.ieee.org/abstract/document/10786549"
-      authors: "Osama Khan, <b>Gwanjong Park</b>, Junyeol Yu, and Euiseong Seo"
+      authors: "Osama Khan, <mark><b>Gwanjong Park</b></mark>, Junyeol Yu, and Euiseong Seo"
       conference: "The International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS 2024)"
     - title: "DaCapo: An On-Device Learning Scheme for Memory-Constrained Embedded Systems"
       link: "https://dl.acm.org/doi/full/10.1145/3609121"
-      authors: "Osama Khan, <b>Gwanjong Park</b>, and Euiseong Seo"
+      authors: "Osama Khan, <mark><b>Gwanjong Park</b></mark>, and Euiseong Seo"
       conference: "The International Conference on Embedded Software (EMSOFT 2023)"
     - title: "Energy-Harvesting-Aware Adaptive Inference of Deep Neural Networks in Embedded Systems"
       link: "https://ieeexplore.ieee.org/abstract/document/10244276"
-      authors: "<b>Gwanjong Park</b>, Osama Khan, and Euiseong Seo"
+      authors: "<mark><b>Gwanjong Park</b></mark>, Osama Khan, and Euiseong Seo"
       conference: "The International Symposium on Low Power Electronics and Design (ISLPED 2023)"
+
+projects:
+  title: "Remarks"
+  assignments:
+    - title: "Industry Project"
+      taglines:
+        - "Study on Memory Sub-System Architecture for Hyper-Scale AI Training, SK Hynix, 2024"
+        - "Development of PIM Software Architecture based on Data-Flow Computing, Korea Government (Institute of Information & communications Technology Planning & Evaluation, 2024"
+        - "Analysis and Development of GPU Architecture for HPC Workloads <a href='https://patents.google.com/patent/US20230385025A1/en'>[Patent]</a>, Samsung (SAIT), 2021-2022"
+        - "Development of Data Center Many-core NPU Architecture and Memory Interface, Samsung, 2019-2020"
+        - "Development of CPU-GPU Heterogeneous Computing Simulation Environment, SK Hynix, 2019-2020"
+        - "Development of the Identification Data Processing Technology for On-site Police Officers, Korea Government (Korea National Police Agency), 2018-2023"
+        - "Develo
