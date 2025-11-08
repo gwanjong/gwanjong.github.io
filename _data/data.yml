@@ -82,9 +82,9 @@ projects:
   assignments:
     - title: "Fundings"
       items:
-        - text: "Ph.D. Fellowship"
+        - text: "Principal Investigator of the Ph.D. Student Research Fellowship"
           time: "Sep 2024 – Aug 2026"
-          details: "<ins>50,000,000</ins> KRW from National Research Foundation of Korea (박사과정생연구장려금지원사업)"
+          details: "<ins>50,000,000</ins> KRW from NRF of Korea (박사과정생연구장려금지원사업)"
         - text: "Ph.D. Program Full Tuition Scholarship"
           time: "Mar 2024 – Feb 2026"
           details: "<ins>30,843,000</ins> KRW from SKKU"
