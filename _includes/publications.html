@@ -2,6 +2,13 @@
 {% if publications %}
 <section class="section publications-section">
 
+  <style>
+    mark {
+        padding: 1px 0;
+        line-height: 1.5em;
+    }
+  </style>
+  
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -19,9 +26,9 @@
   {% for publication in publications.papers %}
   <div class="item">
     {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+      <a href="{{ publication.link }}"><span class="bullet"></span><strong>{{ publication.title }}</strong></a>
     {% else %}
-      <li>{{ publication.title }}</li>
+      <span class="bullet"></span><strong>{{ publication.title }}</strong>
     {% endif %}
     <div class="publication-authors">{{ publication.authors }}</div>
     <div class="publication-conference">{{ publication.conference }}</div>
