@@ -62,7 +62,7 @@ publications:
   papers:
     - title: "Carbon-Aware Continuous Learning for Sustainable Real-Time Machine Learning Analytics"
       link: "#"
-      authors: "<mark><b>Gwanjong Park</b></mark>, Osama Khan, Dongho Ha, Myeongjae Jeon, Euiseong Seo"
+      authors: "<mark><b>Gwanjong Park</b></mark>, Osama Khan, Dongho Ha, Myeongjae Jeon, and Euiseong Seo"
       conference: "The European Conference on Computer Systems (EuroSys 2026)"
     - title: "Cloud Reamer: Enabling Inference Services in Training Clusters"
       link: "https://ieeexplore.ieee.org/abstract/document/10786549"
