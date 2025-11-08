@@ -51,19 +51,18 @@ career-profile:
 education:
   title: Education
   info:
-  - degree: Ph.D. in the Deptartment of Software
-    university: SungKyunKwan University, Suwon, Korea (Advisor: Euiseong Seo)
-    time: Mar 2024 -
-    details: ""      
-  - degree: M.S. in the Deptartment of Software
-    university: SungKyunKwan University, Suwon, Korea (Advisor: Euiseong Seo)
-    time: Sep 2022 - Feb 2024
-    details: ""
-  - degree: B.S. in the Deptartment of Software
-    university: SungKyunKwan University
-    time: Mar 2017 - Aug 2022
-    details: ""
-
+    - degree: "Ph.D. in the Department of Software"
+      university: "SungKyunKwan University, Suwon, Korea (Advisor: Euiseong Seo)"
+      time: "Mar 2024 – present"   # 따옴표 필수 (범위/엔대시)
+      details: ""
+    - degree: "M.S. in the Department of Software"
+      university: "SungKyunKwan University, Suwon, Korea (Advisor: Euiseong Seo)"
+      time: "Sep 2022 – Feb 2024"
+      details: ""
+    - degree: "B.S. in the Department of Software"
+      university: "SungKyunKwan University, Suwon, Korea (Advisor: Euiseong Seo)"
+      time: "Mar 2017 – Aug 2022"
+      details: ""
   
 publications:
   title: Publications
