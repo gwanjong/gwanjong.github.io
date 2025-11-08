@@ -17,8 +17,8 @@ sidebar:
   phone:
   timezone: #South Korea # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: "https://scholar.google.com/citations?user=ndiHzu0AAAAJ&hl=ko&oi=ao" # Include the full website URL, including "http://" or "https://".
-  linkedin: gwanjongPark
+  website: "scholar.google.com/citations?user=ndiHzu0AAAAJ&hl=ko" # Include the full website URL, including "http://" or "https://".
+  linkedin: gwanjong-park-3a1107287
   xing: 
   github: gwanjong
   telegram: # add your nickname without '@' sign
@@ -46,14 +46,16 @@ sidebar:
 career-profile:
   title: Profile
   summary: |
-    I am Gwanjong Park, a Ph.D. student in the Computer Systems Laboratory (CSL) at SungKyunKwan University (SKKU), advised by Professor Euiseong Seo.
-    Currently, my research interests are centered on the intersection of computer systems and AI, with a focus on machine learning systems, compound AI system pipelines, and sustainability-driven AI system infrastructures.
+    I am Gwanjong Park, a Ph.D. student in the Department of Software at SungKyunKwan University (SKKU) and a member of the Computer Systems Laboratory (CSL), advised by Professor Euiseong Seo.
+    
+    Currently, my research interests cover the intersection of computer systems and AI, with a focus on machine learning systems, compound AI system pipelines, and sustainability-driven AI system infrastructures.
+    
 education:
   title: Education
   info:
     - degree: "Ph.D. in the Department of Software"
       university: "SungKyunKwan University, Suwon, Korea (Advisor: Euiseong Seo)"
-      time: "Mar 2024 – present"   # 따옴표 필수 (범위/엔대시)
+      time: "Mar 2024 – present"
       details: ""
     - degree: "M.S. in the Department of Software"
       university: "SungKyunKwan University, Suwon, Korea (Advisor: Euiseong Seo)"
@@ -89,10 +91,10 @@ projects:
   assignments:
     - title: "Fundings"
       taglines:
-        - "한국연구재단 이공분야 학술연구지원사업 (박사과정생연구장려금지원사업) 연구책임자. Sep 2024 - Aug 2026. <b>50,000,000 KRW</b>"
-        - "Ph.D. Program Full Tuition Scholarship in SKKU. Mar 2024 - Feb 2026. <b>30,843,000 KRW</b>"
-        - "M.S. Program Full Tuition Scholarship in SKKU. Aug 2022 - Feb 2024. <b>22,624,000 KRW</b>"
-        - "B.S. Program Half Tuition Scholarship in SKKU. Mar 2017 - Aug 2022. <b>12,535,000 KRW</b>"
+        - "한국연구재단 이공분야 학술연구지원사업 (박사과정생연구장려금지원사업) 연구책임자. Sep 2024 - Aug 2026. <ins><b>50,000,000 KRW</b></ins>"
+        - "Ph.D. Program Full Tuition Scholarship in SKKU. Mar 2024 - Feb 2026. <ins><b>30,843,000 KRW</b></ins>"
+        - "M.S. Program Full Tuition Scholarship in SKKU. Aug 2022 - Feb 2024. <ins><b>22,624,000 KRW</b></ins>"
+        - "B.S. Program Half Tuition Scholarship in SKKU. Mar 2017 - Aug 2022. <ins><b>12,535,000 KRW</b></ins>"
 
     - title: "Awards"
       taglines:
