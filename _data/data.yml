@@ -93,8 +93,8 @@ projects:
 
     - title: "Patents"
       taglines:
-        - "R-2025-0933-KR-1, (TBD)"
-        - "R-2025-0671-KR-1, (TBD)"
+        - "R-2025-0933-KR-1, (In Progress)"
+        - "R-2025-0671-KR-1, (In Progress)"
         - "INFERENCE METHOD USING A DNN MODEL IN ENERGY HARVESTING SYSTEM, U.S. Patent (Applied), 18/544,678"
         - "RECALCULATION METHOD OF BACKPROPAGATION IN A MANNER THAT SELECT THE LAYERS TO STORE THE OUTPUT IN MEMORY, U.S. Patent (Applied), 18/398,458"
         - "학습 클러스터에서 자원 사용률을 극대화하기 위한 유휴 CPU 자원 기반 심층신경망 추론 방법, PCT (Applied), PCT/KR2024/021059"
