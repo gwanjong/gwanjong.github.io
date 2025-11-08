@@ -97,12 +97,12 @@ projects:
 
     - title: "Awards"
       items:
-        - text: "소프트웨어융합대학 일반대학원 소프트웨어학과 우수연구상"
+        - text: "Outstanding Research Award"
           time: "Feb 2024"
-          details: "SKKU"
-        - text: "Dean's List at the College of Software"
+          details: "Department of Software at SKKU"
+        - text: "Dean's List"
           time: "Spring 2017, Spring 2021, Fall 2021"
-          details: "SKKU"
+          details: "Department of Software at SKKU"
 
     - title: "Patents"
       items:
