@@ -60,6 +60,10 @@ education:
 publications:
   title: Publications
   papers:
+    - title: "REcoCache"
+      link: "#"
+      authors: "<mark><b>Gwanjong Park</b></mark>, Junyeol Yu, Osama Khan, Shinhyun Park, and Euiseong Seo"
+      conference: "Under Review"
     - title: "Carbon-Aware Continuous Learning for Sustainable Real-Time Machine Learning Analytics"
       link: "#"
       authors: "<mark><b>Gwanjong Park</b></mark>, Osama Khan, Dongho Ha, Myeongjae Jeon, and Euiseong Seo"
