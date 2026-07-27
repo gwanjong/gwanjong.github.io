@@ -113,7 +113,10 @@ projects:
 
     - title: "Awards"
       items:
-        - text: "Outstanding Research Award"
+        - text: "Ph.D. Student Outstanding Research Award"
+          time: "Aug 2026"
+          details: "Department of Software at SKKU"
+        - text: "M.S. Student Outstanding Research Award"
           time: "Feb 2024"
           details: "Department of Software at SKKU"
         - text: "Dean's List Award"
