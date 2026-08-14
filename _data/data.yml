@@ -42,7 +42,7 @@ career-profile:
   summary: |
     I am Gwanjong Park, a Ph.D. student in the Department of Software at SungKyunKwan University (SKKU) and a member of the <a href="http://csl.skku.edu" target="_blank"> Computer Systems Laboratory (CSL)</a> research group, under the advisement of Professor Euiseong Seo.
     
-    My research interests span the design of AI-driven computing systems and system-optimized AI frameworks. My recent work has focused on reducing the carbon footprint of AI computing infrastructures, with the overarching goal of enabling sustainable AI system design.
+    My research interests span the design of AI-driven computing systems and system-optimized AI frameworks. My recent work has focused on optimizing system resources and reducing the energy and carbon footprint of AI computing infrastructures, with the broader goal of enabling resource-efficient and sustainable AI systems.
     
 education:
   title: Education
